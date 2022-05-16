@@ -98,11 +98,11 @@ header {
 
   }
 
-  table tr {
+  table tbody tr {
     opacity: 0.7;
   }
 
-  table tr:hover {
+  table tbody tr:hover {
     opacity: 1;
   }
 
@@ -113,12 +113,24 @@ header {
 
   }
 
-  
+  td.description {
+    color: var(--dark-blue);
+  }
 
-  
+  td.income {
+    color: #12a454;
+  }
+
+  td.expense {
+    color: #e92929;
+  }
 
 /* ============ FOOTER ==================================== */
 
 footer {
   text-align: center;
+  padding: 4rem 0 2rem;
+  color: var(--dark-blue);
+  opacity: 0.6;
+
 }
