@@ -15,6 +15,11 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.sr-only {
+  position: absolute;
+  
+}
+
 .container {
   width: min(90vw, 800px);
   margin: auto;
