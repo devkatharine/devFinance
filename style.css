@@ -188,7 +188,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
     
+  }
+
+  .modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
   }
 
   .modal {
